@@ -19,12 +19,17 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     button = InlineKeyboardMarkup(
         [
             [
+                [
                 InlineKeyboardButton(
-                    text="ɢɪᴛʜᴜʙ", url="https://github.com/Abishnoi69"
+                    text="𝖩𝖮𝖨𝖭", url="https://t.me/New_Color_Games"
                 ),
                 InlineKeyboardButton(
-                    text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/FallenAssociation"
+                    text="𝖩𝖮𝖨𝖭", url="https://t.me/AnnaClubIndia"
                 ),
+                InlineKeyboardButton(
+                    text="𝖩𝖮𝖨𝖭", url="https://t.me/+EMTYcJGIPkZiYjk1"
+                ),
+               ]
             ]
         ]
     )
