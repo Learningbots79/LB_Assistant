@@ -10,7 +10,7 @@ DB_URI = getenv("MONGO_URL", "mongodb+srv://haris12:haris12@cluster0.u8qzvr4.mon
 "database url (mongo)"
 OWNER_ID = int(getenv("OWNER_ID", "614393705"))
 "Telegram ID of the bot owner"
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001457998546"))
 "channel/group ID with `-` for keeping track of new errors where the bot gets..."
 SUDO_USER = list(map(int, getenv("SUDO_USER", "614393705").split()))
 "set of user ID which can have elevated privileges"
