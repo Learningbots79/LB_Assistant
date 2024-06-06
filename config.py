@@ -8,7 +8,7 @@ TOKEN = getenv("TOKEN", "6589147306:AAE9y8vL41hky8XqxQtiwQ4IGGiKUneFuDM")
 "Telegram bot token obtained from botfather"
 DB_URI = getenv("MONGO_URL", "mongodb+srv://haris12:haris12@cluster0.u8qzvr4.mongodb.net/?retryWrites=true&w=majority")
 "database url (mongo)"
-OWNER_ID = int(getenv("OWNER_ID", "614393705"))
+OWNER_ID = 614393705
 "Telegram ID of the bot owner"
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001457998546"))
 "channel/group ID with `-` for keeping track of new errors where the bot gets..."
