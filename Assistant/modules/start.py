@@ -16,21 +16,24 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     if await is_banned_user(message.from_user.id):
         return
 
+    #return
+
     button = InlineKeyboardMarkup(
         [
             [
-                [
                 InlineKeyboardButton(
-                    text="𝖩𝖮𝖨𝖭", url="https://t.me/New_Color_Games"
+                    text="join",
+                    url=f"https://t.me/New_Color_Games",
                 ),
                 InlineKeyboardButton(
-                    text="𝖩𝖮𝖨𝖭", url="https://t.me/AnnaClubIndia"
+                    text="join",
+                    url=f"https://t.me/AnnaClubIndia",
                 ),
                 InlineKeyboardButton(
-                    text="𝖩𝖮𝖨𝖭", url="https://t.me/+EMTYcJGIPkZiYjk1"
+                    text="join",
+                    url=f"https://t.me/+EMTYcJGIPkZiYjk1",
                 ),
-               ]
-            ]
+            ],
         ]
     )
     new_user = await add_served_user(message.from_user.id)
