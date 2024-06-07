@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = "6589147306:AAGa_GW0ItDcnLSZ_fE6poxMZ9hkWmVl4Jg"
+TOKEN = "6589147306:AAFZJUS6oAlz3lop1xYMX6J3y-fGSkzu-Is"
 DB_URI = "mongodb+srv://haris12:haris12@cluster0.u8qzvr4.mongodb.net/?retryWrites=true&w=majority"
 OWNER_ID = 614393705
 LOGGER_ID = "-1001457998546"
