@@ -44,7 +44,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         )
     await message.reply_photo(
         "https://graph.org/file/ba8cf75fb71f22aa76b74.jpg",
-        caption=f"..\n\nʜᴇʟʟᴏ 👋{mention_html(user.id, user.first_name)}.\n\n📝 ᴀssɪsᴛᴀɴᴛ ᴏғ {mention_html(owner.id, owner.first_name)}\nғᴇᴇʟ ғʀᴇᴇ ᴛᴏ sᴇɴᴅ ᴍᴇssᴀɢᴇ ʜᴇʀᴇ, ᴅᴏɴ'ᴛ ᴅᴍ",
+        caption=f"..\n\nʜᴇʟʟᴏ 👋{mention_html(user.id, user.first_name)}.\n\n📝 ᴀssɪsᴛᴀɴᴛ ᴏғ {mention_html(owner.id, owner.first_name)}\n▸ ᴍᴜꜱᴛ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟꜱ ᴛʜᴇɴ ʏᴏᴜ ᴀʙʟᴇ ᴛᴏ ᴄʜᴀᴛ ᴡɪᴛʜ ᴏᴡɴᴇʀ ✅",
         reply_markup=button,
     )
     return
