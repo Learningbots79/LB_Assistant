@@ -1,10 +1,10 @@
-from config import MUST_JOIN
+#from config import MUST_JOIN
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
 
-
+MUST_JOIN = "https://t.me/New_Color_Games"
 @Client.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(bot: Client, msg: Message):
     if not MUST_JOIN:
